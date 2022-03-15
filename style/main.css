@@ -115,6 +115,11 @@ button {
 	border-radius: 0.5rem;
 }
 
+#btn-pause > img {
+	width: 2.2rem;
+	height: 2.5rem;
+}
+
 .max-results {
 	display: flex;
 	margin-top: 2rem;

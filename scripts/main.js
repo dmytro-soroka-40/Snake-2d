@@ -102,7 +102,7 @@ const standartSettings = {
 	gameMode: 'classic'
 };
 
-const gameSettings = JSON.parse(localStorage.getItem('settings'));
+let gameSettings = JSON.parse(localStorage.getItem('settings'));
 
 if (!gameSettings) gameSettings = standartSettings;
 
